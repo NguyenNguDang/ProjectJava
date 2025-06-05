@@ -38,6 +38,21 @@ ul {
     font-weight: 600;
 }
 
+.inner-title{
+    margin-top: 35px;
+    margin-bottom: 35px;
+    font-size: 30px;
+    font-weight: 800;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
 /* end glocal  */
 /* header  */
 .header {
@@ -286,23 +301,101 @@ ul {
     height: 70%;
     object-fit: contain;
 }
-
+.list-promotion{
+    display: flex;
+    overflow-x: scroll;
+}
+.promotion-item{
+    position: relative;
+    margin-right: 20px;
+    border-radius: 6px;
+}
+.promotion-item:nth-child(3n+1){
+   background: linear-gradient(104.56deg, #285FE2 0%, #6AA2FF 100%);
+}
+.promotion-item:nth-child(3n+2){
+   background: linear-gradient(284.56deg, #C64D19 0%, #F3A77B 100%);
+}
+.promotion-item:nth-child(3n+3){
+   background: linear-gradient(104.78deg, #B37425 1.2%, #F2D16B 100%);
+}
+.promotion-box::before{
+    content: "";
+    width: 152px;
+    height: 179px;
+    background: url(https://cdn.diag.vn/2025/03/972c2c46-group-1.png);
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.promotion-box{
+    width: 365px;
+    height: 220px;
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.promotion-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.promotion-desrc{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.promotion-button{
+    font-size: 18px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 8px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.promotion-button button{
+    padding: 5px;
+    background-color: #D11720;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+.promotion-button span{
+    color: black;
+}
 /* end service list  */
 
 /* our-doctors  */
-.our-doctors .doctor {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
+.list-doctor{
+    display: flex;
+    flex-wrap: wrap;
+    
 
-.our-doctors .doctor img {
-    height: 100%;
-    width: 100%;
-    object-fit: contain;
-    border-radius: 28px;
 }
-
+.doctor-item{
+    width: 30%;
+    text-align: center ;
+    padding: 20px 10px;
+    background-color: #E6F5FF;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+.doctor-descr{
+    font-size: 14px;
+}
+.doctor-descr p{
+    margin-bottom: 0;
+  
+}
+.doctor-name{
+    font-size: 18px;
+}
 /* end our-doctors  */
  /* Test Package   */
  .test-package{

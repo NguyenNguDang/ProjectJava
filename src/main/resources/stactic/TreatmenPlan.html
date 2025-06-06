@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUẢN LÝ QUÁ TRÌNH ĐIỀU TRỊ & LỊCH TRÌNH</title>
+    <link rel="stylesheet" href="assets/css/TreatmentPlan.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Màu nền xanh biển nhạt */
+        }
+        header {
+            background-color: #005f73; /* Màu xanh biển đậm */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: #0a9396; /* Màu xanh biển trung bình */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #94d2bd; /* Màu xanh biển nhạt khi hover */
+        }
+        .content {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            color: #005f73; /* Màu xanh biển đậm cho tiêu đề */
+            margin-top: 0;
+        }
+        .section p {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>QUẢN LÝ QUÁ TRÌNH ĐIỀU TRỊ & LỊCH TRÌNH</h1>
+    </header>
+    <nav>
+        <a href="#treatment">Kế hoạch điều trị</a>
+        <a href="#schedule">Lịch hẹn</a>
+        <a href="#doctors">Thông tin bác sĩ</a>
+    </nav>
+    <div class="content">
+        <div class="section" id="treatment">
+            <h2>Kế hoạch điều trị</h2>
+            <p>Chức năng này cho phép bạn tạo, chỉnh sửa và theo dõi các kế hoạch điều trị của bệnh nhân. Bạn có thể quản lý chi tiết quá trình điều trị, bao gồm phương pháp, ngày bắt đầu và trạng thái.</p>
+        </div>
+        <div class="section" id="schedule">
+            <h2>Lịch hẹn</h2>
+            <p>Quản lý lịch hẹn, bao gồm đặt lịch, hủy lịch và xem danh sách các cuộc hẹn sắp tới. Bạn có thể dễ dàng theo dõi các cuộc hẹn của bệnh nhân và bác sĩ.</p>
+        </div>
+        <div class="section" id="doctors">
+            <h2>Thông tin bác sĩ</h2>
+            <p>Tìm kiếm và xem thông tin chi tiết về các bác sĩ trong hệ thống. Bạn có thể xem chuyên môn, lịch làm việc và các thông tin liên hệ của bác sĩ.</p>
+        </div>
+    </div>
+    <script src="assets/JavaScript/Treatment.js"></script>
+</body>
+</html>

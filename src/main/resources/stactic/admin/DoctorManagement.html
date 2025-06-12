@@ -68,12 +68,11 @@
               <ul class="sub-menu">
                 <div class="sub-menu-items">
                   <li>
-                    <a href="DoctorManagement.html"
-                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
-                    >
+                    <a href="product_list.html"
+                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a>
                   </li>
                   <li>
-                    <a href="DoctorSchedules.html"><i class="ri-arrow-right-wide-fill"></i>Quản lí lịch làm việc</a>
+                    <a href="product_add.html"><i class="ri-arrow-right-wide-fill"></i>Quản lí lịch làm việc</a>
                   </li>
                 </div>
               </ul>
@@ -82,77 +81,6 @@
             <li>
               <a href=""
                 ><i class="ri-file-list-2-line"></i>Quản lý dịch vụ điều trị hiếm muộn<i
-                  class="ri-add-box-line"
-                ></i
-              ></a>
-              <ul class="sub-menu">
-                <div class="sub-menu-items">
-                  <li>
-                    <a href="TreatmentServices.html"
-                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
-                    >
-                  </li>
-                  <li>
-                    <a href="AddTreatmentServices.html"><i class="ri-arrow-right-wide-fill"></i>Thêm dịch vụ</a>
-                  </li>
-                </div>
-              </ul>
-            </li>
-
-            <li>
-              <a href=""
-                ><i class="ri-file-list-2-line"></i>Quản lý đơn đăng ký điều trị <i
-                  class="ri-add-box-line"
-                ></i
-              ></a>
-              <ul class="sub-menu">
-                <div class="sub-menu-items">
-                  <li>
-                    <a href="RegistrationManagement.html"
-                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
-                    >
-                  </li>
-                </div>
-              </ul>
-            </li>
-
-            <li>
-              <a href=""
-                ><i class="ri-file-list-2-line"></i>Quản lý lịch trình điều trị <i
-                  class="ri-add-box-line"
-                ></i
-              ></a>
-              <ul class="sub-menu">
-                <div class="sub-menu-items">
-                  <li>
-                    <a href="TreatmentSchedule.html"
-                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
-                    >
-                  </li>
-                </div>
-              </ul>
-            </li>
-
-            <li>
-              <a href=""
-                ><i class="ri-file-list-2-line"></i> Quản lý hồ sơ điều trị  <i
-                  class="ri-add-box-line"
-                ></i
-              ></a>
-              <ul class="sub-menu">
-                <div class="sub-menu-items">
-                  <li>
-                    <a href="TreatmentRecord.html"
-                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
-                    >
-                  </li>
-                </div>
-              </ul>
-            </li>
-
-            <li>
-              <a href=""
-                ><i class="ri-file-list-2-line"></i>Feedback & Rating  <i
                   class="ri-add-box-line"
                 ></i
               ></a>
@@ -170,6 +98,65 @@
               </ul>
             </li>
 
+            <li>
+              <a href=""
+                ><i class="ri-file-list-2-line"></i>Quản lý đơn đăng ký điều trị <i
+                  class="ri-add-box-line"
+                ></i
+              ></a>
+              <ul class="sub-menu">
+                <div class="sub-menu-items">
+                  <li>
+                    <a href="product_list.html"
+                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
+                    >
+                  </li>
+                  <li>
+                    <a href="product_add.html"><i class="ri-arrow-right-wide-fill"></i>Thêm</a>
+                  </li>
+                </div>
+              </ul>
+            </li>
+
+            <li>
+              <a href=""
+                ><i class="ri-file-list-2-line"></i>Quản lý lịch trình điều trị <i
+                  class="ri-add-box-line"
+                ></i
+              ></a>
+              <ul class="sub-menu">
+                <div class="sub-menu-items">
+                  <li>
+                    <a href="product_list.html"
+                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
+                    >
+                  </li>
+                  <li>
+                    <a href="product_add.html"><i class="ri-arrow-right-wide-fill"></i>Thêm</a>
+                  </li>
+                </div>
+              </ul>
+            </li>
+
+            <li>
+              <a href=""
+                ><i class="ri-file-list-2-line"></i> Quản lý hồ sơ điều trị  <i
+                  class="ri-add-box-line"
+                ></i
+              ></a>
+              <ul class="sub-menu">
+                <div class="sub-menu-items">
+                  <li>
+                    <a href="product_list.html"
+                      ><i class="ri-arrow-right-wide-fill"></i>Danh sách</a
+                    >
+                  </li>
+                  <li>
+                    <a href="product_add.html"><i class="ri-arrow-right-wide-fill"></i>Thêm</a>
+                  </li>
+                </div>
+              </ul>
+            </li>
 
             
           </ul>
@@ -197,9 +184,36 @@
         </div>
         <div class="main-content">
           <div class="main-content-title">
-            <h1>Dashboard</h1>
+            <h1>Quản lí bác sĩ</h1>
           </div>
           <div class="main">
+            <table class="table-user"> 
+                <thead>
+                    <tr>
+                        <th>Họ tên</th>
+                        <th>Chuyên môn</th>
+                        <th>Ngày làm việc</th>
+                        <th>Giờ bắt đầu</th>
+                        <th>Giờ kết thúc</th>
+                        <th>Trạng thái</th>
+                        <th>Tùy chọn</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nguyen Ngu Dang</td>
+                        <td>IUI</td>
+                        <td>Monday</td>
+                        <td>12</td>
+                        <td>20</td>
+                        <td>Đang hoạt động</td>
+                        <td>
+                            <button class="main-btn edit-class">Sửa</button>
+                            <button class="main-btn delete-class">Xóa</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
           </div>
         </div>
       </div>

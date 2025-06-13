@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HỆ THỐNG QUẢN LÝ ĐIỀU TRỊ HIẾM MUỘN</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/index.css">
+        <!-- Bootstrap CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+        crossorigin="anonymous"
+      />
     <style>
         /* CSS được tách riêng - Chỉ một số style cơ bản */
         * {
@@ -36,24 +44,7 @@
             color: var(--text-primary);
         }
 
-        .header {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: var(--shadow-lg);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-            position: relative;
-            z-index: 1;
-        }
+    
 
         .dashboard {
             max-width: 1400px;
@@ -61,6 +52,7 @@
             padding: 0 1rem 2rem;
             position: relative;
             z-index: 10;
+            margin-top: 60px;
         }
 
         .stats-grid {
@@ -335,10 +327,64 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <h1><i class="fas fa-heartbeat"></i> HỆ THỐNG QUẢN LÝ ĐIỀU TRỊ HIẾM MUỘN</h1>
-        <p>Giải pháp quản lý toàn diện cho điều trị hiếm muộn và hỗ trợ sinh sản</p>
-    </div>
+          <!-- header  -->
+          <header class="header">
+            <div class="header-top">
+              <div class="container">
+                <div class="header-top-left">
+                  <span>Tìm hiểu thêm:</span>
+                  <ul class="list-social-logo">
+                    <li class="social-logo">
+                      <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li class="social-logo">
+                      <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </li>
+                    <li class="social-logo">
+                      <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <li class="social-logo">
+                      <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="header-top-right">
+                  <ul class="list-infor">
+                    <li class="infor-header"><a href="">Doanh nghiệp</a></li>
+                    <li class="infor-header"><a href="">Điểm lấy mẫu</a></li>
+                    <li class="infor-header"><a href="">Tra cứu kết quả</a></li>
+                    <li class="infor-header">
+                      <a href="">Ứng dụng dành cho đối tác</a>
+                    </li>
+                    <li class="infor-header"><a href="">19001717</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="header-bottom">
+              <div class="container">
+                <div class="header-bottom-left">
+                  <div class="main-logo">
+                    <a href=""><img src="assets/images/Logo.png" alt="" /></a>
+                  </div>
+                </div>
+                <div class="header-bottom-right">
+                  <ul class="list-service">
+                    <li class="service-item"><a href="">Dịch vụ điều trị</a></li>
+                    <li class="service-item"><a href="">Đội ngũ bác sĩ</a></li>
+                    <li class="service-item"><a href="">Tiêm chủng</a></li>
+                    <li class="service-item"><a href="">Đặt lịch khám</a></li>
+                    <li class="service-item"><a href="">Blog </a></li>
+                    <li class="service-item"><a href="">Về TTVDH </a></li>
+                    <li class="service-item">
+                      <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </header>
+          <!-- end header  -->
 
     <div class="dashboard">
         <!-- Stats Dashboard -->
@@ -672,7 +718,77 @@
             </form>
         </div>
     </div>
+     <!-- footer  -->
+     <footer class="footer">
+        <div class="container">
+          <div class="footer-top">
+            <div class="footer-logo">
+              <div class="main-logo">
+                <img src="assets/images/Logo.png" alt="" />
+              </div>
+              
+            </div>
+            <a href="">
+              <i class="fa-solid fa-phone"></i>
+              1900 1717
+            </a>
+          </div>
+          <div class="footer-mid">
+            <div class="footer-box">
+              <h5>CÔNG TY TNHH LAB GROUP INTERNATIONAL VIỆT NAM</h5>
+              <p>
+                Giấy chứng nhận đăng ký doanh nghiệp số: 0301482205 do Sở Kế
+                hoạch và Đầu tư Thành phố Hồ Chí Minh cấp lần đầu ngày 26 tháng
+                9 năm 2008.
+              </p>
+              <p>
+                Giấy phép hoạt động khám bệnh, chữa bệnh số: 06454/HCM-GPHĐ cấp
+                bởi Sở Y tế Thành phố Hồ Chí Minh.
+              </p>
+              <p>Địa chỉ:</p>
+              <p>
+                Phòng khám Đa khoa – Trung tâm Xét nghiệm và Chẩn đoán Y khoa –
+                Medical Diag Center, 414-420 Đường Cao Thắng, Phường 12, Quận
+                10, Thành phố Hồ Chí Minh, Việt Nam
+              </p>
+            </div>
+            <div class="footer-box">
+              <h5 class="footer-title">TTVDH</h5>
+              <a href="">Tuyển dụng</a>
+              <h5 class="footer-title">Chính sách & điều khoản</h5>
+              <a href="">Chính sách bảo mật</a>
+              <a href="">Điều khoản sử dụng</a>
+              <a href="">Chính sách cung cấp dịch vụ</a>
+              <a href=""
+                >Chính sách thanh toán, điều kiện giao dịch & bảo mật thông tin
+                thanh toán</a
+              >
+              <a href="">Chính sách đổi, hủy và hoàn phí dịch vụ</a>
+              <a href="">Chính sách bảo vệ dữ liệu cá nhân (khách hàng)</a>
+              <a href="">Chính sách bảo vệ dữ liệu cá nhân (ứng viên)</a>
+            </div>
+            <div class="footer-box">
+              <h5 class="footer-title">Đối tác y tế</h5>
+              <a href="">Ứng dụng dành cho đối tác</a>
+              <a href="">Danh sách nhân viên y tế</a>
+              <h5 class="footer-title">Khách hàng</h5>
+              <a href="">Xem kết quả xét nghiệm</a>
+              <a href="">Tìm điểm lấy mẫu</a>
+              <h5 class="footer-title">Theo dõi Diag</h5>
+              <div class="footer-social">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>© 2025 Diag. Tất cả quyền được bảo lưu.</p>
+          </div>
+        </div>
 
+        <!-- end footer  -->
+      </footer>
     <script>
         // Dữ liệu mẫu
         let treatments = JSON.parse(localStorage.getItem('treatments') || '[]');
